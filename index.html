@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="css/style.css"> 
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+
+ 
+
+  <!-- NAVIGATION -->
+  <nav>
+  <div class="container">
+
+    <a href="index.html" class="nav-logo">Agnes Myrberg</a>
+
+    <!-- HAMBURGER (CSS ONLY) -->
+    <input type="checkbox" id="menu-toggle">
+
+    <label for="menu-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <ul class="nav-links">
+      <li><a href="ommig.html">Om mig</a></li>
+      <li><a href="projekt.html">Projekt</a></li>
+      <li><a href="erfarenhet.html">Erfarenhet</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+
+  </div>
+</nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <span class="tag">Design &amp; UX</span>
+          <h1>Hej, det är<br><em>Agnes!</em></h1>
+          <p>
+            Sommaren 2026 tar jag kandidatexamen i Informatik och jag kan äntligen titulera mig som Digital Designer.
+          </p>
+          <div class="hero-actions">
+            <a href="projekt.html" class="btn btn-primary">Se mina projekt →</a>
+            <a href="#kontakt" class="btn btn-outline">Kontakta mig</a>
+          </div>
+        </div>
+
+        <div class="hero-image"><img src="images/agnes.jpeg" alt="bild"> </div> 
+      </div>
+    </div>
+  </section>
+
+  <!-- OM MIG -->
+  <section id="om-mig">
+    <div class="container">
+      <p class="section-label">Om mig</p>
+      <div class="om-mig-grid">
+        <div>
+          <h2>"Jag drivs av tydlig design som<br>fungerar lika bra<br>som den ser ut."</h2>
+        </div>
+        <div>
+          <p>
+            Jag är en nyfiken designer som älskar att skapa. Skapande har alltid varit en självklar del av mig.
+              Jag drivs av tydlig design som fungerar lika bra som den ser ut. Idag har mitt kreativa intresse utvecklats
+              till ett professionellt arbete inom design, där jag får använda samma nyfikenhet och skaparglädje för att
+              utveckla genomtänkta och användbara lösningar.
+          </p>
+          <p>
+           Det som särskiljer mig är mitt öga för detaljer och mitt genuina intresse för hur små designbeslut påverkar helhetsupplevelsen. 
+          Jag gillar att arbeta både kreativt och analytiskt, där idéer får växa fram, testas och förfinas.
+          </p>
+
+          <div class="skills-list">
+            <!-- Byt ut dessa mot dina egna kompetenser -->
+            <span class="skill-tag">Adobe Creative Cloud</span>
+            <span class="skill-tag">Photoshop</span>
+            <span class="skill-tag">InDesign</span>
+            <span class="skill-tag">Illustrator</span>
+            <span class="skill-tag">Adobe XD</span>
+            <span class="skill-tag">Microsoft 365</span>
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">HTML/CSS</span>
+            <span class="skill-tag">UX/UI Design</span>
+            <span class="skill-tag">Visuell Kommunikation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJEKT -->
+  <section id="projekt">
+    <div class="container">
+      <div class="projekt-header">
+        <div>
+          <p class="section-label">Utvalda projekt</p>
+          <h2>I rampljuset<br>just nu</h2>
+        </div>
+        <a href="projekt.html" class="btn btn-outline">Jag vill se mer →</a>
+      </div>
+
+      <div class="projekt-grid">
+
+        <!-- Projekt 1 — stort -->
+        <div class="card-large">
+          <article class="project-card">
+            <!-- Byt ut div mot <img src="projekt1.jpg" alt="..."> -->
+            <div class="card-image"><img src="images/skärmbild1.png" alt="testbild"></div>
+            <div class="card-body">
+              <p class="card-category">Design med reflektion · 2025</p>
+              <h3 class="card-title">"Jag som designer"</h3>
+              <p class="card-desc">Uppgift från kursen Designteori. Uppgiften gick ut på att se tillbaka på något från designportföljen som reprecenterar mig som designer. 
+                Jag valde att arbeta vidare med ett fiktivt modemagasin jag skapade. I länken nedan finns möjligheten att läsa mer om mina tankar och reflektioner.</p>
+              <a href="images/Jag som designer.pdf" target="_blank" class="card-link">Läs mina reflektioner →</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- Projekt 2 — litet -->
+        <div class="card-small">
+          <article class="project-card">
+            <div class="card-image"><img src="images/norsktjej.jpeg" alt="Bild på migS"></div>
+            <div class="card-body">
+              <p class="card-category">Videopitch · 2025</p>
+              <h3 class="card-title">Jag i rörlig bild</h3>
+              <p class="card-desc">Jag fick under min VFU chansen att spela in en introduktion, för att du ska få lära känna mig lite bättre. Klicka på länken för att titta.</p>
+              <a href="https://youtube.com/shorts/fnrVQK03BHY" target="_blank" class="card-link">Länk till YouTube →</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- Projekt 3 — hel rad -->
+        <div class="card-full">
+  <article class="project-card">
+    <div class="card-image">
+      <video autoplay muted loop playsinline>
+        <source src="images/komprimeradtravel.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="card-body">
+      <p class="card-category">Projekt VFU · 2025</p>
+      <h3 class="card-title">Design av webbsida</h3>
+      <p class="card-desc">Under hösten 2025 fick jag chansen att ha VFU på företaget Zmart Webb&Reklam i Enköping. 
+        Jag fick då i uppgift att skapa skisser, prototyper, visuellt innehåll och wirefames till flertalet av Zmarts interna bolag. 
+        Ovan ser ni min design, efter kundens önskemål, till sidan Travelzmart.se.</p>
+      <a href="https://travelzmart.se/" target="_blank" class="card-link">Till Travel Zmart →</a>
+    </div>
+  </article>
+</div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CV / ERFARENHET -->
+  <section id="cv">
+    <div class="container">
+      <div class="cv-header">
+        <div>
+          <p class="section-label">Erfarenhet</p>
+          <h2>Vart har jag varit?</h2>
+        </div>
+        <!-- Länka till ditt CV som PDF om du vill -->
+        <a href="images/CV.pdf" target="_blank" class="btn btn-outline">Ladda ner CV →</a>
+      </div>
+
+      <div class="cv-list">
+        <div class="cv-item">
+          <p class="section-label">Utbildning</p> <br>
+
+          <span class="cv-period">aug 2023 - jun 2026</span>
+          <div>
+            <p class="cv-role">Digital Design</p>
+            <p class="cv-company">Högskolan Kristianstad</p>
+            <p class="cv-desc">Sommaren 2026 tar jag kandidatexamen i Informatik med inriktning digital design. Under utbildningens gång har jag 
+              läst kurser inom bland annat: Interaktionsdesign, Gestaltande design, Grafisk design och Webbdesign.</p>
+              <a href="https://www.hkr.se/program/digitaldesign/utbildningsplan/" target="_blank" class="card-link">Läs mer om utbildningen →</a>
+          </div>
+        </div>
+        <div class="cv-item">
+          <span class="cv-period">jan 2022 - jul 2022</span>
+          <div>
+            <p class="cv-role">Värnplikt</p>
+            <p class="cv-company">Försvarsmakten</p>
+            <p class="cv-desc">Jag har genomfört värnplikt, där jag under sex månader primärt utvecklade disciplin, ansvarstagande och förmågan att samarbeta i krävande situationer.
+              För att sekundärt genomgå grundutbildning som skyttesoldat samt förare. En ovärdelig erfarenhet.
+            </p>
+          </div>
+        </div>
+        
+        <div class="cv-item">
+          <p class="section-label">Arbetserfarenhet</p> <br> 
+
+         <span class="cv-period">jun 2020 - pågående</span>
+          <div>
+            <p class="cv-role">Servitris</p>
+            <p class="cv-company">Växbo Krog</p>
+            <p class="cv-desc">Mina år inom restaurangbranschen och fine dining har gett mig många 
+              värdefulla erfarenheter. Jag har bland annat utvecklat en stark förmåga att hantera stress, samarbeta i team och vara noggrann i mitt arbete. </p>
+          </div>
+        </div>
+
+        <div class="cv-item">
+          <span class="cv-period">jun 2025 - aug 2025</span>
+          <div>
+            <p class="cv-role">Processoperatör</p>
+            <p class="cv-company">K.Ungh</p>
+            <p class="cv-desc">Jag ansvarade för övervakning och styrning av produktionsprocesser. 
+              Arbetet innebar att säkerställa produktkvalitet, följa etablerade rutiner samt bidra till en stabil och effektiv drift.</p>
+          </div>
+        </div>
+
+        <div class="cv-item">
+          <span class="cv-period">aug 2021 - jun 2023</span>
+          <div>
+            <p class="cv-role">Lärarvikarie/elevassisent</p>
+            <p class="cv-company">Lust & Lära</p>
+            <p class="cv-desc">På denna högstadieskola bidrog jag till struktur och ledarskap, både i större klasser och mindre grupper. 
+              Jag byggde förtroende och relationer hos både kollegor och elever, jag hanterade även oförutsedda situationer med lugn och stabilitet.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section id="kontakt">
+    <div class="container">
+      <div class="kontakt-inner">
+        <div>
+          <p class="section-label">Kontakt</p>
+          <h2>Ska vi göra<br>något bra<br><em>tillsammans?</em></h2>
+          <p>Oavsett om du har ett projekt, en fråga eller bara vill säga hej, <br> hör av dig.</p>
+
+          <div class="contact-links">
+            <a href="mailto:din@email.se" class="contact-link">
+              <svg class="contact-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+              </svg>
+              <span class="contact-link-label">agnes5060@icloud.com</span>
+            </a>
+            <a href="https://www.linkedin.com/in/agnesmyrberg/" target="_blank" rel="noopener" class="contact-link">
+              <svg class="contact-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/>
+              </svg>
+              <span class="contact-link-label">LinkedIn</span>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="contact-link">
+              <svg class="contact-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="20" x="2" y="2" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+              </svg>
+              <span class="contact-link-label">Instagram</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Enkelt kontaktformulär -->
+        <div>
+          <form class="contact-form" action="https://formspree.io/f/xlgoywad" method="POST">
+            <div class="form-group">
+              <label for="name">Namn</label>
+              <input type="text" id="name" name="name" placeholder="Ditt namn" />
+            </div>
+            <div class="form-group">
+              <label for="email">E-post</label>
+              <input type="email" id="email" name="email" placeholder="din@email.se" />
+            </div>
+            <div class="form-group">
+              <label for="message">Meddelande</label>
+              <textarea id="message" name="message" placeholder="Berätta om ditt projekt eller din fråga…"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="align-self: flex-start;">Skicka →</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>© 2026 Agnes Myrberg.</p>
+      <ul class="footer-links">
+        <li><a href="ommig.html">Om mig</a></li>
+        <li><a href="projekt.html">Projekt</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>

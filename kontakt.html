@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="css/style.css"> 
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+
+ 
+
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="container">
+      <a href="index.html" class="nav-logo">Agnes Myrberg</a>
+      <ul class="nav-links">
+        <li><a href="ommig.html">Om mig</a></li>
+        <li><a href="projekt.html">Projekt</a></li>
+        <li><a href="erfarenhet.html">Erfarenhet</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </div>
+  </nav>  
+  
+  <!-- KONTAKT -->
+  <section id="kontakt">
+    <div class="container">
+      <div class="kontakt-inner">
+        <div>
+          <p class="section-label">Kontakt</p>
+          <h2>Ska vi göra<br>något bra<br><em>tillsammans?</em></h2>
+          <p>Oavsett om du har ett projekt, en fråga eller bara vill säga hej, <br> hör av dig.</p>
+
+          <div class="contact-links">
+            <a href="mailto:din@email.se" class="contact-link">
+              <svg class="contact-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+              </svg>
+              <span class="contact-link-label">agnes5060@icloud.com</span>
+            </a>
+            <a href="https://www.linkedin.com/in/agnesmyrberg/" target="_blank" rel="noopener" class="contact-link">
+              <svg class="contact-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/>
+              </svg>
+              <span class="contact-link-label">LinkedIn</span>
+            </a>
+            <a href="https://behance.net" target="_blank" rel="noopener" class="contact-link">
+              <svg class="contact-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="16"/><line x1="8" x2="16" y1="12" y2="12"/>
+              </svg>
+              <span class="contact-link-label">Behance / Dribbble</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Enkelt kontaktformulär -->
+        <div>
+       
+          <form class="contact-form" action="https://formspree.io/f/xlgoywad" method="POST" >
+            <div class="form-group">
+              <label for="name">Namn</label>
+              <input type="text" id="name" name="name" placeholder="Ditt namn" />
+            </div>
+            <div class="form-group">
+              <label for="email">E-post</label>
+              <input type="email" id="email" name="email" placeholder="din@email.se" />
+            </div>
+            <div class="form-group">
+              <label for="message">Meddelande</label>
+              <textarea id="message" name="message" placeholder="Berätta om ditt projekt eller din fråga…"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="align-self: flex-start;">Skicka →</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>© 2026 Agnes Myrberg.</p>
+      <ul class="footer-links">
+        <li><a href="ommig.html">Om mig</a></li>
+        <li><a href="projekt.html">Projekt</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
